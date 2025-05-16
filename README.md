@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pack -a AdithyanA2005/nord.yazi
+ya pack -a AdithyanA2005/nord
 ```
 
 ## ⚙️ Usage
