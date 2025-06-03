@@ -12,6 +12,14 @@
 
 ## 🎨 Installation
 
+#### For latest yazi version
+
+```sh
+ya pkg add AdithyanA2005/nord
+```
+
+#### For yazi version <= 25.5.28
+
 ```sh
 ya pack -a AdithyanA2005/nord
 ```
