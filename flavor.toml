@@ -43,6 +43,11 @@ marker_cut = { fg = "#BF616A", bg = "#BF616A" }      # nord11 (Red)
 marker_marked = { fg = "#8FBCBB", bg = "#8FBCBB" }   # nord7 (Frost Mint)
 marker_selected = { fg = "#EBCB8B", bg = "#EBCB8B" } # nord13 (Yellow)
 
+# Tab - Active tab reversed, inacvtive slightly muted
+tab_active = { reversed = true }
+tab_inactive = { fg = "#4C566A" } # nord3
+tab_width = 1
+
 # Count badges - Use marker background colors with dark text for contrast
 count_copied = { fg = "#2E3440", bg = "#A3BE8C" }   # nord0 on nord14
 count_cut = { fg = "#2E3440", bg = "#BF616A" }      # nord0 on nord11
