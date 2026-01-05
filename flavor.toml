@@ -29,10 +29,6 @@
 # Current working directory - Use a prominent Frost color
 cwd = { fg = "#88C0D0" } # nord8
 
-# Hovered item - Simple reverse video often works best
-hovered = { reversed = true }
-preview_hovered = { underline = true }
-
 # Find results - Use Aurora colors for highlighting
 find_keyword = { fg = "#EBCB8B", bold = true, italic = true, underline = true } # nord13 (Yellow)
 find_position = { fg = "#B48EAD", bg = "reset", bold = true, italic = true }    # nord15 (Purple)
@@ -56,6 +52,17 @@ count_selected = { fg = "#2E3440", bg = "#EBCB8B" } # nord0 on nord13
 # Border - Use a subtle Polar Night color
 border_symbol = "│"
 border_style = { fg = "#4C566A" } # nord3
+
+# : }}}
+
+
+# : Indicator of hovered file {{{
+
+[indicator]
+parent  = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
+padding = { open = "", close = "" }
 
 # : }}}
 
