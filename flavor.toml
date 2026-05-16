@@ -206,6 +206,9 @@ rules = [
   # Documents - Aurora Green
   { mime = "application/{pdf,doc,rtf,odt,docx,xlsx,pptx}", fg = "#A3BE8C" }, # nord14
 
+  # For symlinks - Yellow
+  { url = "*", is="link", fg = "#EBCB8B" }, # nord13
+
   # Fallback file - Default Snow Storm text color
   { url = "*", fg = "#D8DEE9" }, # nord4
 
