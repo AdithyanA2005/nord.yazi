@@ -194,26 +194,26 @@ title_error = { fg = "#BF616A" } # nord11 (Red)
 [filetype]
 
 rules = [
-  # Images - Frost Mint/Cyan
-  { mime = "image/*", fg = "#8FBCBB" }, # nord7
+# Images - Frost Mint/Cyan
+{ mime = "image/*", fg = "#8FBCBB" }, # nord7
 
-  # Media (Audio/Video) - Aurora Yellow
-  { mime = "{audio,video}/*", fg = "#EBCB8B" }, # nord13
+# Media (Audio/Video) - Aurora Yellow
+{ mime = "{audio,video}/*", fg = "#EBCB8B" }, # nord13
 
-  # Archives - Aurora Purple
-  { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#B48EAD" }, # nord15
+# Archives - Aurora Purple
+{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#B48EAD" }, # nord15
 
-  # Documents - Aurora Green
-  { mime = "application/{pdf,doc,rtf,odt,docx,xlsx,pptx}", fg = "#A3BE8C" }, # nord14
+# Documents - Aurora Green
+{ mime = "application/{pdf,doc,rtf,odt,docx,xlsx,pptx}", fg = "#A3BE8C" }, # nord14
 
-  # For symlinks - Purple
-  { url = "*", is="link", fg = "#B48EAD" }, # nord15
+# For symlinks - Purple
+{ url = "*", is="link", fg = "#B48EAD" }, # nord15
 
-  # Fallback file - Default Snow Storm text color
-  { url = "*", fg = "#D8DEE9" }, # nord4
+# Fallback file - Default Snow Storm text color
+{ url = "*", fg = "#D8DEE9" }, # nord4
 
-  # Fallback directory - Frost Blue
-  { url = "*/", fg = "#81A1C1", bold = true }, # nord9
+# Fallback directory - Frost Blue
+{ url = "*/", fg = "#81A1C1", bold = true }, # nord9
 ]
 
-# : }}}
+ # : }}}
