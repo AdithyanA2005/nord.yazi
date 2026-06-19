@@ -217,3 +217,14 @@ rules = [
 ]
 
  # : }}}
+
+
+# : Icon colors {{{
+
+[icon]
+# Make folder icon color match the directory text color (nord9)
+prepend_conds = [
+    { if = "dir", text = "\ue5ff", fg = "#81A1C1" }, # nord9 - matches filetype directory text
+]
+
+ # : }}}
