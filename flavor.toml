@@ -222,9 +222,16 @@ rules = [
 # : Icon colors {{{
 
 [icon]
-# Make folder icon color match the directory text color (nord9)
+# Override specific hidden directory icons to match nord9
+prepend_dirs = [
+    { name = ".config", text = "\ue5fc", fg = "#81A1C1" },
+    { name = ".git", text = "\ue5fb", fg = "#81A1C1" },
+    { name = ".github", text = "\ue5fd", fg = "#81A1C1" },
+    { name = ".npm", text = "\ue5fa", fg = "#81A1C1" },
+]
+# Generic fallback for non-hidden directories
 prepend_conds = [
-    { if = "dir", text = "\ue5ff", fg = "#81A1C1" }, # nord9 - matches filetype directory text
+    { if = "dir & !hidden", text = "\ue5ff", fg = "#81A1C1" }, # nord9
 ]
 
  # : }}}
